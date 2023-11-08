@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    font-size: 2vmin;
+    font-size: clamp(1rem, 2vmin, 2vmin); 
+    padding: 1em;
+    height: 100dvh;
+    width: 100dvw;
+
+    background: linear-gradient(45deg, red, purple);
+    color: white;
+
+    padding: 1em;
+}
+
+h1 {
+    margin: 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 8vmin;
+}
+
+article {
+    column-width: 15em;
+}
+
+article p {
+    margin: 0;
+    padding: 0 0 1em 0;
+}
+
+footer {
+    font-style: italic;
+    font-size: 75%;
+}
+
+img {
+    width: 100%;
+}
+
+#logo {
+    padding: 2em;
+    width: 10em;
+}
+
+#house {
+    border-radius: 1em;
+    box-shadow: 0 0 1em white;
+    border: 0.5em white solid;
+    width: 100%;
+}

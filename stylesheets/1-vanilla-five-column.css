@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    font-size: clamp(1rem, 2vmin, 2vmin); 
+    padding: 1em;
+    height: 100dvh;
+    width: 100dvw;
+}
+
+article {
+    column-width: 25em;
+}
+
+footer {
+    font-style: italic;
+    font-size: 75%;
+}
+
+img {
+    width: 100%;
+}
+
+#logo {
+    padding: 2em;
+    width: 10em;
+}
