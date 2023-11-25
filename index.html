@@ -2,22 +2,29 @@
 <meta charset="UTF-8">
 <title>A Poster</title>
 
-<!-- Un-comment the the stylesheets one-at-a-time to use.   -->
-<!-- <link rel="stylesheet" title="vanilla" href="stylesheets/1-vanilla-five-column.css"> -->
-<!-- <link rel="stylesheet" title="stylish" href="stylesheets/2-stylish-five-column.css"> -->
-<!-- <link rel="stylesheet" title="poster" href="stylesheets/3-grid-layout.css"> -->
+<!-- By default there is no stylesheet loaded.                 -->
+<!-- Click the My Lovely Poster heading to change stylesheets. -->
+<script defer src="index.js"></script>
+<link id="stylesheet" rel="stylesheet" href="">
+<style>
+    /* this is what makes the heading look clickable when you point at it */
+    #mainheading {
+        cursor: pointer;
+    }
+</style>
+
 
 <main>
     <header>
-        <h1>My Lovely Poster</h1>
+        <h1 id="mainheading">My Lovely Poster</h1>
     </header>
 
     <article>
         <img id=house src=images/unihouse.jpg alt="A photo of the main building of Portsmouth University, constrcted of red brick.">
         <section id=first>
             <h1>First Heading</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti <em>debitis</em> magni, modi assumenda praesentium corporis maiores pariatur! Cumque fugit laudantium consequuntur aspernatur voluptatum, delectus impedit maxime laboriosam? Ut, sunt hic?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni explicabo laborum, nam ut fuga necessitatibus perferendis nostrum! Magni ratione illo quod doloremque autem harum facilis eaque deserunt nulla dolorum.</p>
+            <p>Click the <em>My Lovely Poster</em> heading to change stylesheets.  Corrupti <em>debitis</em> magni, modi assumenda praesentium corporis maiores pariatur! Cumque fugit laudantium consequuntur aspernatur voluptatum, delectus impedit maxime laboriosam? Ut, sunt hic?</p>
+            <p>Explicabo laborum, nam ut fuga necessitatibus perferendis nostrum! Magni ratione illo quod doloremque autem harum facilis eaque deserunt nulla dolorum.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ab voluptates quasi minus, amet odio tempore, eos deleniti pariatur!</p>
             <p>Quisquam totam? Nihil adipisci voluptatem dicta illum omnis magnam odio repudiandae accusantium <strong>reprehenderit</strong>, et molestiae culpa eaque. Quidem, distinctio nam! Ducimus, officia facere? Aperiam possimus recusandae eveniet, modi consectetur, eos cumque ad distinctio perferendis ab debitis veniam quidem enim? Error architecto ducimus eum iure blanditiis quod hic earum excepturi quos libero debitis dolor ipsam est doloremque, pariatur necessitatibus, sunt dolores iste dignissimos quod eaque id quam obcaecati saepe eum ullam corporis. Quibusdam impedit aut, nulla, reiciendis ipsum iusto at repudiandae nihil excepturi maiores provident natus sapiente earum id. Maiores quidem odit dicta quibusdam, consequuntur.</p>
         </section>
